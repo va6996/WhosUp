@@ -1,0 +1,39 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WhosUp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="WhosUp.AddActivity"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.BottomAppBar>
+        <CommandBar Visibility="Visible">
+            <AppBarButton x:ConnectionId='1' Icon="Accept" Label="Save"                  />
+            <AppBarButton x:ConnectionId='2' Icon="Cancel" Label="Cancel"               />
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" Margin="0,4,0,410">
+            <TextBlock x:Name="WhosUp" Text="Who's Up For" FontSize="40" FontWeight="Light" Margin="10,10,10,0" HorizontalAlignment="Left"/>
+            <TextBox x:Name="Activity" PlaceholderText="say Pizza!" FontSize="20" Margin="10,10,10,0" />
+            <!--        <TextBlock x:Name="DateTime1" Text="On" FontSize="40" FontWeight="Light" Margin="10,10,10,0" HorizontalAlignment="Left" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <DatePicker x:Name="date" Margin="10,0,10,0" HorizontalAlignment="Center" FontSize="20" />
+                <TimePicker x:Name="time" Margin="10,0,10,0" HorizontalAlignment="Center" FontSize="20" />
+            </StackPanel>-->
+            <TextBlock x:Name="Location" Text="At" FontSize="40" FontWeight="Light" Margin="10,10,10,0" HorizontalAlignment="Left" />
+            <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBox x:Name="Lat" Width="50" Margin="10,10,10,0" PlaceholderText="0" FlowDirection="RightToLeft"  InputScope="Number"/>
+                <TextBox x:Name="Long" Width="50" Margin="10,10,10,0" PlaceholderText="0" FlowDirection="RightToLeft"  InputScope="Number"/>                
+            </StackPanel>-->
+            <TextBlock x:Name="Message" Foreground="Red" Visibility="Collapsed" FontSize="20" Margin="10,10,10,10"/>
+
+        </StackPanel>
+        <Maps:MapControl x:Name="MapSet" MapServiceToken="NBiqhzPWbOxfs4So109TXg" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,175,0,0" Width="380" Height="395"/>
+        <!-- <TimePicker x:Name="UjjTime" HorizontalAlignment="Left" Margin="138,420,0,0" VerticalAlignment="Top"/>-->
+    </Grid>
+</Page>
+

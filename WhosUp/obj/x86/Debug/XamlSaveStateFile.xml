@@ -1,0 +1,8 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\dath vader\documents\visual studio 2015\projects\whosup\whosup\obj\x86\debug\intermediatexaml\whosup.exe" HashGuid="4ce501e2-7fbb-14ed-c9af-e6ea65db91d4" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\users\dath vader\documents\visual studio 2015\projects\whosup\packages\parse.1.6.1\lib\wpa81\parse.dll" HashGuid="339ec1f6-595a-280d-f5a7-9893107edd75" />
+    <ReferenceAssembly PathName="c:\users\dath vader\documents\visual studio 2015\projects\whosup\packages\parse.1.6.1\lib\wpa81\parse.winrt.dll" HashGuid="8be1d44c-a9af-48f7-ba0d-5c307ed64799" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

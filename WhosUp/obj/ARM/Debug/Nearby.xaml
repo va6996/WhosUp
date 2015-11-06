@@ -1,0 +1,52 @@
+﻿<Page
+    x:Class="WhosUp.Nearby"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WhosUp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#00796B">
+    <Page.BottomAppBar>
+        <CommandBar>
+
+            <AppBarButton x:ConnectionId='1' Icon="Add" Label="Add"                     />
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:ConnectionId='2' Label="about"                     />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <TextBlock x:Name="Heading" Grid.Row="0" FontSize="60" Text="what's around" FontWeight="Light" Margin="15,10,10,30"/>
+            <Grid x:Name="Grid" >
+                <!--<ScrollViewer Width="Auto" VerticalScrollMode ="Enabled" HorizontalScrollMode="Disabled" IsScrollInertiaEnabled="True">-->
+                <ScrollContentPresenter HorizontalAlignment="Left" VerticalAlignment="Top" Width="380" Margin="10,0,0,10">
+                    <ScrollViewer>
+                    <ListView x:ConnectionId='3' x:Name="Activities"                   >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <StackPanel Orientation="Horizontal" Margin="5,5,5,5" ScrollViewer.VerticalScrollMode="Enabled">
+                                        <TextBlock x:Name="Activity" Text="{Binding Activity}" FontSize="30"/>
+                                        <TextBlock  x:Name="Interested" Text="{Binding Interested}" FontSize="15" Margin="10,0,0,0" Foreground="Black" />
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    </ScrollViewer>
+                </ScrollContentPresenter>
+
+                <!--</ScrollViewer>-->
+
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Page>
+
