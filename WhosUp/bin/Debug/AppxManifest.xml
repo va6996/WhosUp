@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="97c6a1b1-723b-4979-a0da-23336f39a3b5" Publisher="CN=Dath Vader" Version="1.0.0.0" ProcessorArchitecture="neutral" />
-  <mp:PhoneIdentity PhoneProductId="6b8f5d13-ca94-40ca-86fb-279a666e3aa5" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="17070UjjwalArora.WhosUp" Publisher="CN=9E34B5C4-04BA-4BA3-AD1B-6A6C58604726" Version="1.1.0.2" ProcessorArchitecture="neutral" />
+  <mp:PhoneIdentity PhoneProductId="859f9710-16cb-4934-a7c2-9313cf83d673" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Who's Up?!</DisplayName>
-    <PublisherDisplayName>Struct by_lightning {...};</PublisherDisplayName>
+    <PublisherDisplayName>Ujjwal Arora</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -40,7 +40,7 @@
     <build:Item Name="TargetFrameworkMoniker" Value="WindowsPhoneApp,Version=v8.1" />
     <build:Item Name="VisualStudio" Version="14.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
-    <build:Item Name="OperatingSystem" Version="10.0.10240.16384 (th1.150709-1700)" />
+    <build:Item Name="OperatingSystem" Version="10.0.10586.0 (th2_release.151029-1700)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.23107.0" />
     <build:Item Name="ProjectGUID" Value="{5BAF5B68-CB84-4E9E-B913-23344DF8ADAB}" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.81.Build.Tasks.dll" Version="14.0.22705.1" />

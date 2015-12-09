@@ -1,7 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\dath vader\documents\visual studio 2015\projects\whosup\whosup\obj\debug\intermediatexaml\whosup.exe" HashGuid="3fab79cc-513d-d14f-f8da-59f32c3c826a" />
-    <ReferenceAssembly PathName="c:\users\dath vader\documents\visual studio 2015\whosup\packages\parse.1.6.1\lib\wpa81\parse.dll" HashGuid="339ec1f6-595a-280d-f5a7-9893107edd75" />
-    <ReferenceAssembly PathName="c:\users\dath vader\documents\visual studio 2015\whosup\packages\parse.1.6.1\lib\wpa81\parse.winrt.dll" HashGuid="8be1d44c-a9af-48f7-ba0d-5c307ed64799" />
+    <ReferenceAssembly PathName="c:\users\arora\downloads\whosup-master\whosup-master\packages\parse.1.6.1\lib\wpa81\parse.dll" HashGuid="339ec1f6-595a-280d-f5a7-9893107edd75" />
+    <ReferenceAssembly PathName="c:\users\arora\downloads\whosup-master\whosup-master\packages\parse.1.6.1\lib\wpa81\parse.winrt.dll" HashGuid="8be1d44c-a9af-48f7-ba0d-5c307ed64799" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>
