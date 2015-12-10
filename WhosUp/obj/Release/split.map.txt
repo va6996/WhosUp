@@ -1,0 +1,23 @@
+﻿[ResourceMetadata]
+"ResourceDimensions"		"scale-240"
+"ResourceDimensions"		"language-en-us"
+
+[Files]
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\split.pri"			"resources.pri"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\WhosUp.xr.xml"			"WhosUp.xr.xml"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\Nearby.xbf"			"Nearby.xbf"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\MainPage.xbf"			"MainPage.xbf"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\Login.xbf"			"Login.xbf"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\Detail.xbf"			"Detail.xbf"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\Assets\WideLogo.scale-240.png"			"Assets\WideLogo.scale-240.png"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\Assets\StoreLogo.scale-240.png"			"Assets\StoreLogo.scale-240.png"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\Assets\Square71x71Logo.scale-240.png"			"Assets\Square71x71Logo.scale-240.png"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\Assets\Square150x150Logo.scale-240.jpg"			"Assets\Square150x150Logo.scale-240.jpg"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\Assets\SplashScreen.scale-240.png"			"Assets\SplashScreen.scale-240.png"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\Assets\SmallLogo.scale-240.png"			"Assets\SmallLogo.scale-240.png"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\Assets\party.png"			"Assets\party.png"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\Assets\Logo.scale-240.png"			"Assets\Logo.scale-240.png"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\Assets\fb.png"			"Assets\fb.png"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\App.xbf"			"App.xbf"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\AddActivity.xbf"			"AddActivity.xbf"
+"C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\obj\Release\PackageLayout\About.xbf"			"About.xbf"
