@@ -1,0 +1,4 @@
+MainPackage=C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\bin\Release\WhosUp_1.1.0.3_AnyCPU.appx
+SymbolPackage=C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\AppPackages\WhosUp_1.1.0.3_Test\WhosUp_1.1.0.3_AnyCPU.appxsym
+ResourcePack=C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\bin\Release\WhosUp_1.1.0.3_scale-100.appx
+ResourcePack=C:\Users\arora\Downloads\WhosUp-master\WhosUp-master\WhosUp\bin\Release\WhosUp_1.1.0.3_scale-140.appx
