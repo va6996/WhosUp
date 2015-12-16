@@ -25,7 +25,7 @@
         <StackPanel>
             <TextBlock x:Name="Heading" Grid.Row="0" FontSize="60" Text="what's around" FontWeight="Light" Margin="15,10,10,30"/>
             <Grid x:Name="Grid" >
-                <ScrollViewer Width="Auto" VerticalScrollMode ="Enabled" Height="460" HorizontalScrollMode="Disabled" IsScrollInertiaEnabled="True">
+                <ScrollViewer Width="Auto" VerticalScrollMode ="Enabled" Height="Auto" HorizontalScrollMode="Disabled" IsScrollInertiaEnabled="True">
 
 
                     <ListView x:Name="Activities" Tapped="NavDetail">
