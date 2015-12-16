@@ -1,1 +1,1 @@
-An app to discover activities around you and meet new people.
+An app to discover events around you and meet new people.
